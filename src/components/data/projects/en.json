@@ -4,7 +4,7 @@
       {
         "id": 1,
         "type": "All",
-        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "img": "assets/images/cinemascore.png",
         "title": "CinemaScore App",
         "subTitle": "React, Api, Context, React-Router-Dom",
         "alterText": "Web Application",
@@ -18,7 +18,7 @@
       {
         "id": 2,
         "type": "All",
-        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "img": "/assets/images/cinemascore.png",
         "title": "CinemaScore App",
         "subTitle": "React, Api, Context, React-Router-Dom",
         "alterText": "Web Application",
@@ -32,7 +32,7 @@
       {
         "id": 3,
         "type": "All",
-        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "img": "/assets/images/cinemascore.png",
         "title": "CinemaScore App",
         "subTitle": "React, Api, Context, React-Router-Dom",
         "alterText": "Web Application",
@@ -46,7 +46,7 @@
       {
         "id": 4,
         "type": "All",
-        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "img": "/assets/images/cinemascore.png",
         "title": "CinemaScore App",
         "subTitle": "React, Api, Context, React-Router-Dom",
         "alterText": "Web Application",
