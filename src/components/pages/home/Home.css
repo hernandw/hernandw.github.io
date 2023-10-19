@@ -1,0 +1,39 @@
+/* Scroller styling */
+.scroller {
+  height: 3.2em;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  color: var(--primary-color);
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;
+  font-weight: bold;
+  font-size: 25px;
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  15% {
+    top: -1.2em;
+  }
+  30% {
+    top: -2.4em;
+  }
+  45% {
+    top: -3.6em;
+  }
+  60% {
+    top: -5.2em;
+  }
+  75% {
+    top: -6.4em;
+  }
+  100% {
+    top: 0;
+  }
+}

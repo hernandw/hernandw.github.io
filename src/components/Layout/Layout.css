@@ -1,0 +1,32 @@
+.layout__container {
+  display: grid;
+  
+  grid-template-rows: 130px 1fr;
+  grid-template-areas:
+    "nav"
+    "main";
+}
+
+.nav__mobile, .nav__aside {
+  grid-area: nav;
+}
+
+.outlet {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 24px;
+  grid-area: main;
+  display: grid;
+  grid-template-rows: 70px 1fr 60px;
+}
+
+@media (min-width: 600px) {
+  .layout__container {
+    grid-template-columns: 80px 1fr;
+    grid-template-areas:
+      "nav main"
+      "nav main"
+      "nav main"
+      "nav main";
+  }
+}

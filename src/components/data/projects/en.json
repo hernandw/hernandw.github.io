@@ -1,0 +1,58 @@
+[
+  {
+    "name": [
+      {
+        "id": 1,
+        "type": "All",
+        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "title": "CinemaScore App",
+        "subTitle": "React, Api, Context, React-Router-Dom",
+        "alterText": "Web Application",
+        "demoLink": "https://cinemascoreapp.netlify.app/",
+        "codeLink": "https://github.com/hernandw/CinemascoreApp"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "id": 2,
+        "type": "All",
+        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "title": "CinemaScore App",
+        "subTitle": "React, Api, Context, React-Router-Dom",
+        "alterText": "Web Application",
+        "demoLink": "https://cinemascoreapp.netlify.app/",
+        "codeLink": "https://github.com/hernandw/CinemascoreApp"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "id": 3,
+        "type": "All",
+        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "title": "CinemaScore App",
+        "subTitle": "React, Api, Context, React-Router-Dom",
+        "alterText": "Web Application",
+        "demoLink": "https://cinemascoreapp.netlify.app/",
+        "codeLink": "https://github.com/hernandw/CinemascoreApp"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "id": 4,
+        "type": "All",
+        "img": "/portfoliov6/assets/images/cinemascore.png",
+        "title": "CinemaScore App",
+        "subTitle": "React, Api, Context, React-Router-Dom",
+        "alterText": "Web Application",
+        "demoLink": "https://cinemascoreapp.netlify.app/",
+        "codeLink": "https://github.com/hernandw/CinemascoreApp"
+      }
+    ]
+  }
+]

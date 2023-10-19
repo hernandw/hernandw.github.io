@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kavoon&family=La+Belle+Aurore&family=Lato:wght@400;700;900&family=Raleway:wght@300;400;500;700;900&family=Rubik:wght@700;900&display=swap");
+@import "animate.css";
+
+//Estilos de la card de Portfolio
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+:root {
+  --primary-color: #ff9301;
+  --main-color: #000;
+  --aside-color: #2a1839b8;
+  --text-color: #fff;
+  --border-color: #444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+/* TAG */
+.tags {
+  color: var(--primary-color);
+  opacity: 0.6;
+  font-size: 20px;
+  font-family: "La Belle Aurore";
+  
+  
+}
+
+/* MENU LATERAL */
+nav {
+  a {
+    font-size: 30px;
+    padding-top: 10px;
+    color: var(--text-color);
+    display: block;
+    line-height: 51px;
+    text-decoration: none;
+    position: relative;
+    height: 51px;
+
+    i {
+      transition: all 0.3s ease-out;
+    }
+    &:hover {
+      color: var(--primary-color);
+      svg {
+        opacity: 0;
+      }
+      &:after {
+        opacity: 1;
+      }
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      font-size: 9px;
+      letter-spacing: 2px;
+      width: 100%;
+      display: block;
+
+      bottom: 0;
+
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+  }
+  a.about-link {
+    &::after {
+      content: "ABOUT";
+      left: -5px;
+    }
+  }
+
+  a.home-link {
+    &::after {
+      content: "HOME";
+      left: -5px;
+    }
+  }
+  a.skill-link {
+    &::after {
+      content: "EDUCATION";
+      left: -20px;
+    }
+  }
+  a.resume-link {
+    &::after {
+      content: "RESUME";
+      left: -10px;
+    }
+  }
+  a.portfolio-link {
+    &::after {
+      content: "PORTFOLIO";
+      left: -20px;
+    }
+  }
+  a.blog-link {
+    &::after {
+      content: "BLOG";
+    }
+  }
+  a.contact-link {
+    &::after {
+      content: "CONTACT";
+      left: -15px;
+    }
+  }
+
+  a.active {
+    svg {
+      color: var(--primary-color);
+    }
+  }
+}
+
+/* ANIMACION DE LOS TITULOS */
+h1 {
+  font-family: "Kavoon", cursive;
+}
+
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+  cursor: pointer;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: var(--primary-color);
+  }
+}
+
+@for $i from 1 through 35 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i * 0.1}s;
+  }
+}
+
+.template__container {
+  /* padding: 20px; */
+  gap: 20px;
+  width: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+  .template__container > div:nth-child(1) {
+    width: 100%;
+  }
+  .template__container > div:nth-child(2) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 922px) {
+  div img {
+    height: 400px;
+  }
+  .template__container > div:nth-child(2) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  div img {
+    height: 500px;
+  }
+}
+
+/* ANIMACION CARD BLOG */
+
+.cards--three {
+  position: relative;
+  z-index: 10;
+
+  &:hover {
+    .cards--three__rect-1 {
+      left: 10%;
+
+      .shadow-1 {
+        left: -20%;
+      }
+    }
+
+    .cards--three__rect-2 {
+      left: 60%;
+
+      &:before {
+        left: -100%;
+      }
+
+      &:after {
+        left: 80%;
+      }
+
+      .shadow-2 {
+        left: -10%;
+      }
+    }
+
+    .cards--three__circle {
+      transform: scale(1);
+
+      &:before {
+        transform: scale(0.9);
+      }
+    }
+
+    .cards--three__list {
+      li {
+        transform: translateX(0);
+      }
+    }
+  }
+
+  &__rect-1 {
+    background: #fff;
+    width: 200px;
+    height: 110px;
+    transform: skewX(-20deg);
+    display: block;
+    position: absolute;
+    top: 73%;
+    opacity: 0.9;
+    left: -100%;
+    z-index: 8;
+    transition: all 0.5s ease-in;
+
+    p {
+      font-size: 16px;
+      color: #fff;
+      transform: skewX(20deg);
+
+      padding-top: 45px;
+    }
+
+    .shadow-1 {
+      background: var(--primary-color);
+      width: 230px;
+      height: 100px;
+      display: block;
+      position: absolute;
+      left: -200%;
+      z-index: -1;
+      transition: all 0.3s ease-in;
+    }
+  }
+
+  &__rect-2 {
+    width: 100px;
+    height: 70px;
+    background: #fff;
+    position: absolute;
+    top: 65%;
+    left: 1000%;
+    opacity: 0.9;
+    transform: skewX(-20deg);
+    z-index: 8;
+    transition: all 0.5s ease-in;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 40px;
+      background: var(--aside-color);
+      opacity: 1;
+      position: absolute;
+      left: 500%;
+      top: 10%;
+      transition: all 0.3s ease-in;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 40px;
+      background: var(--primary-color);
+      opacity: 1;
+      position: absolute;
+      left: 500%;
+      top: 114%;
+      transition: all 0.5s ease-in;
+      transition-delay: 0.2s;
+    }
+
+    .shadow-2 {
+      background: var(--aside-color);
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: -10%;
+      left: 500%;
+      transition: all 0.5s ease-in;
+      transition-delay: 0.2s;
+    }
+  }
+
+  &__circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    opacity: 0.9;
+    transform: scale(0);
+    transition: all 0.3s ease;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: var(--primary-color);
+      border-radius: 50%;
+      transform: scale(0);
+      transition: all 0.3s ease;
+      transition-delay: 0.2s;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    position: absolute;
+    top: -9px;
+    right: 7px;
+    padding-top: 60px;
+    transition: all 0.4s ease;
+
+    li {
+      display: inline-block;
+      margin: 4px;
+      color: #fff;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: rgba(87, 204, 253, 0.9);
+      text-align: center;
+      line-height: 1.7rem;
+      font-size: 12px;
+      transition: all 0.3s ease;
+      transform: translateX(500%);
+
+      &:nth-child(1) {
+        transition-delay: 0.2s;
+      }
+
+      &:nth-child(2) {
+        transition-delay: 0.3s;
+      }
+
+      &:nth-child(3) {
+        transition-delay: 0.4s;
+      }
+    }
+  }
+}
+
+/* Animacion del Boton Contactame */
+.flat-button {
+  color: var(--primary-color);
+  font-size: 13px;
+  font-weight: 400px;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid var(--primary-color);
+  margin-top: 25px;
+  float: left;
+  animation: fadeIn 1s 1.8s backwards;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase;
+
+  &:hover {
+    background: var(--primary-color);
+    color: var(--text-color);
+  }
+}

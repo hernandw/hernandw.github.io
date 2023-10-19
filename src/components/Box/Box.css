@@ -1,0 +1,53 @@
+.boton {
+  background-color: var(--primary-color);
+}
+
+.box__skill {
+  width: 100%;
+  background-color: var(--aside-color);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.boton {
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+}
+
+div ul li {
+  list-style: square;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .box__skill {
+    flex-wrap: nowrap;
+  }
+
+  .position {
+    width: 45%;
+  }
+  .company {
+    width: 55%;
+    padding-left: 15px;
+    border-left: 1px solid var(--border-color);
+  }
+}
+
+@media (min-width: 1024px) {
+  .position {
+    width: 35%;
+    padding-right: 10px;
+  }
+
+  .company {
+    width: 65%;
+  }
+
+  .template__container div:nth-child(2) {
+    justify-content: flex-start;
+  }
+}

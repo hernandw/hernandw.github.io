@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "passingYear": "February 2023 - May 2023",
+    "degreeTitle": "Cloud Architecture - AWS",
+    "instituteName": "Talento Digital / Awakelab"
+  },
+  {
+    "id": 2,
+    "passingYear": "April 2021 - November 2021",
+    "degreeTitle": "Full Stack Javascript Developer",
+    "instituteName": "Talento Digital / Desafio Latam"
+  },
+  {
+    "id": 3,
+    "passingYear": "2007 - 2010",
+    "degreeTitle": "Specialist in Computer Technologies in Education",
+    "instituteName": "University of Carabobo"
+  },
+  {
+    "id": 4,
+    "passingYear": "1998 - 2003",
+    "degreeTitle": "Professor in Education",
+    "instituteName": "University of Carabobo"
+  }
+]

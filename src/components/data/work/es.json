@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "jobCompany": "Academia Desafio Latam",
+    "jobDate": "Julio 2022 - Presente",
+    "jobDescription": [
+      "Profesor del Bootcamp Full Stack Javascript React",
+      "Profesor del módulo de desarrollo web del Bootcamp de Diseño UX/UI"
+    ],
+    "jobFrecuency": "Tiempo Parcial",
+    "jobModality": "Remoto",
+    "jobPosition": "Profesor de Programación"
+  },
+  {
+    "id": 2,
+    "jobCompany": "Librería Qué Leo Arica",
+    "jobDate": "Febrero 2020 - Septiembre 2021",
+    "jobDescription": [
+      "Implementación de un ecommerce en wordpress/woocommerce",
+      "Gestión del contenido del sitio web, utilizando herramientas como WordPress o Divi para crear una tienda online dinámica e interactiva",
+      "Creación y mantenimiento de la base de datos del sitio web, utilizando herramientas como MySQL, para almacenar y recuperar datos",
+      "Integración del sitio web con servicios externos, utilizando APIs o plugins para conectar el ecommerce con plataformas de pago como transbank, redes sociales, sistemas de análisis web, herramientas de marketing por correo electrónico como mailchimp y marketing por whatsapp"
+    ],
+    "jobFrecuency": "Tiempo Parcial",
+    "jobModality": "Remoto",
+    "jobPosition": "Desarrollador Frontend"
+  },
+  {
+    "id": 3,
+    "jobCompany": "Librería Qué Leo Arica",
+    "jobDate": "Agosto 2017 - Septiembre 2021",
+    "jobDescription": [
+      "Servicio al cliente y venta al por menor de libros",
+      "Gestión de inventario y mejora de la experiencia de usuario",
+      "Automatización de procesos con excel",
+      "Gestión de caja"
+    ],
+    "jobFrecuency": "Tiempo Completo",
+    "jobModality": "Presencial",
+    "jobPosition": "Vendedor Especializado"
+  },
+  {
+    "id": 4,
+    "jobCompany": "Universidad de Carabobo",
+    "jobDate": "Noviembre 2004 - Julio 2017",
+    "jobDescription": [
+      "Coordinador TIC del Departamento de Ciencias Sociales",
+      "Profesor  de la asignatura diseño de materiales educativos Computarizados",
+      "Informática para educadores",
+      "Implementación del sitio web del Departamento de Ciencias Sociales",
+      "Formación docente en uso y desarrollo de contenidos en moodle"
+      
+    ],
+    "jobFrecuency": "Tiempo Parcial",
+    "jobModality": "Presencial",
+    "jobPosition": "Profesor"
+  },
+  {
+    "id": 5,
+    "jobCompany": "Zona Educativa Carabobo",
+    "jobDate": "Septiembre 2015 - Julio 2017",
+    "jobDescription": [
+      "Capacitación a coordinadores de control de estudio en el uso de la plataforma Guaicaipuro",
+      "Informática para educadores",
+      "Elaboración de estadísticas trimestrales de ingreso de estudiantes y personal al sistema de gestión escolar",
+      "Resolución de problemas con la plataforma Guaicaipuro"
+    ],
+    "jobFrecuency": "Tiempo Completo",
+    "jobModality": "Híbrido",
+    "jobPosition": "Coordinador del Sistema de Gestión Escolar del Municipio San Diego"
+  },
+  {
+    "id": 6,
+    "jobCompany": "Ministerio de Educación",
+    "jobDate": "Marzo 2008 - Julio 2015",
+    "jobDescription": [
+      "Supervisión de coordinadores",
+      "Automatización de procesos de notas y control de asistencia del personal",
+      "Logro de metas educativas"
+    ],
+    "jobFrecuency": "Tiempo Completo",
+    "jobModality": "Presencial",
+    "jobPosition": "Subdirector Académico"
+  },
+  {
+    "id": 7,
+    "jobCompany": "Ministerio de Educación",
+    "jobDate": "Septiembre 2004 - Marzo 2008",
+    "jobDescription": ["Docencia de asignaturas de Ciencias Sociales"],
+    "jobFrecuency": "Tiempo Completo",
+    "jobModality": "Presencial",
+    "jobPosition": "Profesor"
+  }
+]

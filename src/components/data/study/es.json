@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "passingYear": "Febrero 2023 - Mayo 2023",
+    "degreeTitle": "Aquitectura Cloud - AWS",
+    "instituteName": "Talento Digital / Awakelab"
+  },
+  {
+    "id": 2,
+    "passingYear": "Abril 2021 - Noviembre 2021",
+    "degreeTitle": "Desarrollador Full Stack Javascript",
+    "instituteName": "Talento Digital / Desafio Latam"
+  },
+  {
+    "id": 3,
+    "passingYear": "2007 - 2010",
+    "degreeTitle": "Especialista en Tecnologías de la Computación en Educación",
+    "instituteName": "Universidad de Carabobo"
+  },
+  {
+    "id": 4,
+    "passingYear": "1998 - 2003",
+    "degreeTitle": "Profesor en Educación",
+    "instituteName": "Universidad de Carabobo"
+  }
+]
