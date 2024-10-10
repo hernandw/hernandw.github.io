@@ -1,0 +1,117 @@
+{
+    "education": [
+        {
+          "id": 1,
+          "passingYear": "February 2023 - May 2023",
+          "degreeTitle": "Cloud Architecture - AWS",
+          "instituteName": "Talento Digital / Awakelab"
+        },
+        {
+          "id": 2,
+          "passingYear": "April 2021 - November 2021",
+          "degreeTitle": "Full Stack Javascript Developer",
+          "instituteName": "Talento Digital / Desafio Latam"
+        },
+        {
+          "id": 3,
+          "passingYear": "January 2007 -  July2010",
+          "degreeTitle": "Specialist in Computer Technologies in Education",
+          "instituteName": "University of Carabobo"
+        },
+        {
+          "id": 4,
+          "passingYear": "November 1998 - July 2003",
+          "degreeTitle": "Professor in Education",
+          "instituteName": "University of Carabobo"
+        }
+      ],
+      "skill": [
+        {
+          "id": 1,
+          "skillName": "HTML",
+          "src": "https://img.icons8.com/fluency/48/html-5.png"
+        },
+        {
+          "id": 2,
+          "skillName": "CSS",
+          "src": "https://img.icons8.com/plasticine/100/css3.png"
+        },
+        {
+          "id": 3,
+          "skillName": "JavaScript",
+          "src": "https://img.icons8.com/fluency/48/javascript.png"
+        },
+        {
+            "id": 7,
+            "skillName": "TypeScript",
+            "src": "https://img.icons8.com/fluency/48/typescript--v1.png"
+          },
+        {
+          "id": 4,
+          "skillName": "React",
+          "src": "https://img.icons8.com/officel/80/react.png"
+        },
+        {
+          "id": 5,
+          "skillName": "Tailwind",
+          "src": "https://img.icons8.com/color/48/tailwindcss.png"
+        },
+        {
+          "id": 6,
+          "skillName": "Bootstrap",
+          "src": "https://img.icons8.com/fluency/48/bootstrap.png"
+        },
+        {
+          "id": 8,
+          "skillName": "Node",
+          "src": "https://img.icons8.com/fluency/48/node-js.png"
+        },
+        {
+          "id": 9,
+          "skillName": "Express",
+          "src": "https://img.icons8.com/fluency/48/express-js.png"
+        },{
+          "id": 12,
+          "skillName": "SQL",
+          "src": "https://img.icons8.com/ios-filled/50/data-configuration.png"
+        },{
+          "id": 10,
+          "skillName": "Postgres",
+          "src": "https://img.icons8.com/color/48/postgreesql.png"
+        },
+        {
+          "id": 14,
+          "skillName": "MySQL",
+          "src": "https://img.icons8.com/fluency/48/my-sql.png"},
+        {
+          "id": 11,
+          "skillName": "Moodle",
+          "src": "https://img.icons8.com/color/48/moodle.png"},{
+          "id": 16,
+          "skillName": "Wordpress",
+          "src": "https://img.icons8.com/color/48/wordpress.png"
+          },{
+          "id": 17,
+          "skillName": "Excel",
+          "src": "https://img.icons8.com/officel/80/ms-excel.png"
+          },{
+            "id": 15,
+            "skillName": "Git",
+            "src": "https://img.icons8.com/color/48/git.png"
+            },{
+          "id": 13,
+          "skillName": "GitHub",
+          "src": "https://img.icons8.com/color/48/github.png"
+          },
+          
+          {
+          "id": 18,
+          "skillName": "AWS",
+          "src": "https://img.icons8.com/color/48/amazon-web-services.png"
+          },{
+          "id": 19,
+          "skillName": "Api Rest",
+          "src": "https://img.icons8.com/carbon-copy/100/api-settings.png"
+          }
+      ]
+}

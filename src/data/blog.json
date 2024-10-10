@@ -1,0 +1,14 @@
+{
+    "blog": [
+        {
+            "id": 1,
+            "title": "Servidor con Node + Express + EJS",
+            "src": "./images/art1.png",
+            "date": "2022-03-21",
+            "author": "Williams Hernández",
+            "description": "Levantamiento de Servidor con Express desde el Backend y EJS para el Frontend",
+            "code": "https://www.linkedin.com/pulse/servidor-con-node-express-ejs-williams-hernandez-ardila/?trackingId=gFRzS9xLSWKcCAWDv4MZ%2Fg%3D%3D"
+            
+        }
+    ]
+}

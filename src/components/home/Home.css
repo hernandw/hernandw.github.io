@@ -1,0 +1,43 @@
+.text-container {
+    display: flex;
+    
+    align-items: center;
+    height: 50px;
+    
+    overflow: hidden; /* Asegura que el texto que sube salga de la vista */
+    position: relative;
+  }
+  
+  .animated-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dfa400;
+    position: absolute; /* Mantiene las palabras en el mismo lugar */
+    animation: slideUpText 4s ease-in-out infinite;
+  }
+  
+  @keyframes slideUpText {
+    0% {
+      transform: translateY(100%); /* El texto empieza abajo fuera de vista */
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateY(0); /* El texto aparece completamente visible */
+      opacity: 1;
+    }
+    60% {
+      transform: translateY(-100%); /* El texto comienza a desaparecer por la parte superior */
+      opacity: 1;
+    }
+    90% {
+      opacity: 0; /* El texto desaparece */
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  

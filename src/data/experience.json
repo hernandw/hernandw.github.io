@@ -1,0 +1,95 @@
+{
+    "experience": [
+      {
+        "id": 1,
+        "jobCompany": "Desafio Latam Academy",
+        "jobDate": "July 2022 - Present",
+        "jobDescription": [
+          "Full Stack Javascript React Bootcamp Teacher",
+          "Teacher of the web development module of the UX/UI Design Bootcamp"
+        ],
+        "jobFrecuency": "Part Time",
+        "jobModality": "Remote",
+        "jobPosition": "Teacher IT"
+      },
+      {
+        "id": 2,
+        "jobCompany": "Qué Leo Arica Bookstore",
+        "jobDate": "February 2020 - September 2021",
+        "jobDescription": [
+          "Implementation of an ecommerce in wordpress/woocommerce",
+          "Manage the website's content, using tools like WordPress or Divi to create a dynamic and interactive online store",
+          "Create and maintain the website's database, using tools like MySQL, to store and retrieve data",
+          "Integrate the website with external services, using APIs or plugins to connect ecommerce with payment platforms such as transbank, social networks, web analytics systems, email marketing tools such as mailchimp and whatsapp marketing"
+        ],
+        "jobFrecuency": "Part Time",
+        "jobModality": "Remote",
+        "jobPosition": "Frontend Developer"
+      },
+      {
+        "id": 3,
+        "jobCompany": "Qué Leo Arica Bookstore",
+        "jobDate": "August 2017 - September 2021",
+        "jobDescription": [
+          "Customer service and retail book sales",
+          "Inventory management and improvement of user experience",
+          "Automation of processes with excel",
+          "Cash management"
+        ],
+        "jobFrecuency": "Full Time",
+        "jobModality": "On site",
+        "jobPosition": "Bookseller"
+      },
+      {
+        "id": 4,
+        "jobCompany": "Universidad de Carabobo",
+        "jobDate": "November 2004 - July 2017",
+        "jobDescription": [
+          "IT Coordinator of the Department of Social Sciences",
+          "Teacher of the subject design of computerized educational materials",
+          "Informatics for educators",
+          "Implementation of the Website of the Department of Social Sciences",
+          "Teacher training in use and content development in moodle"
+        ],
+        "jobFrecuency": "Part Time",
+        "jobModality": "On site",
+        "jobPosition": "Professor"
+      },
+      {
+        "id": 5,
+        "jobCompany": "Zona Educativa Carabobo",
+        "jobDate": "September 2015 - July 2017",
+        "jobDescription": [
+          "Training study control coordinators in the use of the Guaicaipuro platform",
+          "Informatics for educators",
+          "Preparation of quarterly statistics of income of students and staff to the school management system",
+          "Problem solving with the Guaicaipuro platform"
+        ],
+        "jobFrecuency": "Full Time",
+        "jobModality": "Hybrid",
+        "jobPosition": "Coordinator of the School Management System of the San Diego Municipality"
+      },
+      {
+        "id": 6,
+        "jobCompany": "Ministerio de Educación",
+        "jobDate": "March 2008 - July 2015",
+        "jobDescription": [
+          "Supervision of coordinators",
+          "Automation of note processes and staff attendance control",
+          "Achievement of educational goals"
+        ],
+        "jobFrecuency": "Full Time",
+        "jobModality": "On site",
+        "jobPosition": "Academic Subdirector"
+      },
+      {
+        "id": 7,
+        "jobCompany": "Ministerio de Educación",
+        "jobDate": "September 2004 - March 2008",
+        "jobDescription": ["Teaching of Social Sciences subjects"],
+        "jobFrecuency": "Full Time",
+        "jobModality": "On site",
+        "jobPosition": "Teacher"
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "src": "./images/bienesraiceshbs.png",
+        "title": "Espacio Inversión - Venta de Inmuebles",
+        "description": "Sitio web dedicado a la venta de inmuebles realizado con tecnologias como Javascripts, Handlebars y los estilos con CSS, Tailwind, Express desde el lado de Backend y Postgres para el manejo de la base de datos.",
+        "code": "https://github.com/hernandw/bienesraices-hbs",
+        "demo": "https://bienesraices-hbs.onrender.com/",
+        "tech": ["HTML", "CSS","API", "JavaScript", "handleBars", "Tailwind", "Express", "Postgres" ]
+      },
+      {
+        "id": "2",
+        "src": "./images/portada.png",
+        "title": "GuitarLA",
+        "description": "Carrito de compras con React,  React Router, Typescript, CSS",
+        "code": "https://github.com/hernandw/guitarla-ts",
+        "demo": "https://www.williamshernandez.com/guitarla-ts/",
+        "tech": ["Bootstrap","Typescript", "CSS", "React",  "React Router" ]
+      }
+      
+    ]
+  }

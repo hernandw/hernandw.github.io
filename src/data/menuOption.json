@@ -1,0 +1,46 @@
+{
+    "menu": [
+      {
+        "id": "1",
+        "url": "/",
+        "opcion": "Home"
+        
+      },
+      {
+        "id": "2",
+        "url": "/about",
+        "opcion": "About"
+        
+      },
+      {
+        "id": "3",
+        "url": "/experience",
+        "opcion": "Experience"
+        
+      },
+      {
+        "id": "4",
+        "url": "/education",
+        "opcion": "Education"
+        
+      },
+      {
+        "id": "5",
+        "url": "/projects",
+        "opcion": "Projects"
+      
+      },
+      {
+        "id": "6",
+        "url": "/blog",
+        "opcion": "Blog"
+        
+      },
+      {
+        "id": "7",
+        "url": "/contact",
+        "opcion": "Contact"
+        
+      }    
+    ]
+  }
