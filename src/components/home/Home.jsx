@@ -30,7 +30,7 @@ const Home = () => {
             <p className="text-xl font-thin">I focused on crafting clean & user‑friendly experiences. I am
               passionate about building excellent software that improves the lives
               of those around me.</p>
-            <button className="bg-[#dfa400] text-white p-2 rounded-lg w-[100px] mt-8 hover:bg-white hover:text-[#dfa400]">Get in touch</button>
+            <button className="bg-[#dfa400] text-white p-2 rounded-lg w-[100px] mt-8 hover:bg-white hover:text-[#dfa400]"><a href="/contact">Get in touch</a></button>
           </div>
         </div>
       </div>
