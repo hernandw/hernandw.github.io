@@ -5,11 +5,11 @@ import BlogCard from "./BlogCard";
 
 
 
-const Experience = () => {
+const Blog = () => {
   return (
-    <div className="w-full md:w-[420px] h-full p-2 md:pl-28 md:pr-10  pt-16">
+    <div className="w-full md:w-full h-full p-2 md:pl-28 md:pr-10  pt-16">
       <h1 className="text-4xl font-bold pb-10">Blog</h1>
-      <div >
+      <div className="flex flex-col md:flex-row flex-wrap justify-center md:justify-start items-center gap-10">
       {blog.blog.map((item) => (
         <BlogCard key={item.id} {...item} />
       ))}
@@ -18,4 +18,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Blog

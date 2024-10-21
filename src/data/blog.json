@@ -9,6 +9,15 @@
             "description": "Levantamiento de Servidor con Express desde el Backend y EJS para el Frontend",
             "code": "https://www.linkedin.com/pulse/servidor-con-node-express-ejs-williams-hernandez-ardila/?trackingId=gFRzS9xLSWKcCAWDv4MZ%2Fg%3D%3D"
             
+        },
+        {
+            "id": 2,
+            "title": "Cómo levantar un servidor con Express.js en menos de 10 minutos ",
+            "src": "./images/1729513949569.png",
+            "date": "2024-10-21",
+            "author": "Williams Hernández",
+            "description": "Aprende a levantar un servidor con Express.js en menos de 10 minutos: Guia para iniciar en el mundo de backend ",
+            "code": "https://www.linkedin.com/pulse/c%C3%B3mo-levantar-un-servidor-con-expressjs-en-menos-de-williams-bw5xc/?trackingId=yQR5kdceSAOourl7Kr%2Bi%2Fw%3D%3D"
         }
     ]
 }
