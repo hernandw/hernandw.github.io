@@ -18,6 +18,15 @@
             "author": "Williams Hernández",
             "description": "Aprende a levantar un servidor con Express.js en menos de 10 minutos: Guia para iniciar en el mundo de backend ",
             "code": "https://www.linkedin.com/pulse/c%C3%B3mo-levantar-un-servidor-con-expressjs-en-menos-de-williams-bw5xc/?trackingId=yQR5kdceSAOourl7Kr%2Bi%2Fw%3D%3D"
+        },
+        {
+            "id": 3,
+            "title": "Routing con Express: Flexibilidad y Escalabilidad en el Desarrollo de Aplicaciones Web",
+            "src": "./images/1729594270462.png",
+            "date": "2022-03-22",
+            "author": "Williams Hernández",
+            "description": "Como crear rutas con express, importancia y escalabilidad",
+            "code": "https://www.linkedin.com/pulse/routing-con-express-flexibilidad-y-escalabilidad-en-williams-jmyje/?trackingId=TvvNRPupR3%2BtzmmsLyFDFg%3D%3D"
         }
     ]
 }
