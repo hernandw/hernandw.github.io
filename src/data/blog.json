@@ -27,6 +27,15 @@
             "author": "Williams Hernández",
             "description": "Como crear rutas con express, importancia y escalabilidad",
             "code": "https://www.linkedin.com/pulse/routing-con-express-flexibilidad-y-escalabilidad-en-williams-jmyje/?trackingId=TvvNRPupR3%2BtzmmsLyFDFg%3D%3D"
+        },
+        {
+            "id": 4,
+            "title": "Git y GitHub: Herramientas Esenciales para el Desarrollo Colaborativo",
+            "src": "./images/1729673223418.png",
+            "date": "2022-10-23",
+            "author": "Williams Hernández",
+            "description": "Guarda tu proyecto de manera local con Git y de manera remota con github",
+            "code": "https://www.linkedin.com/pulse/git-y-github-herramientas-esenciales-para-el-hernandez-ardila-dv3kf/"
         }
     ]
 }
