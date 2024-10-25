@@ -45,6 +45,15 @@
             "author": "Williams Hernández",
             "description": "Conocer y utilizar variables de entorno para mejorar la seguridad de tu código",   
             "code": "https://www.linkedin.com/pulse/variables-de-entorno-gesti%C3%B3n-segura-y-eficiente-en-el-williams-p75te/?trackingId=tod9opq2R2mvgLbmZ8YDAA%3D%3D"
+        },
+        {
+            "id": 6,
+            "title": "Optimiza tu flujo de trabajo: nodemon vs wath",
+            "src": "./images/1729854927747.png",
+            "date": "2024-10-25",
+            "author": "Williams Hernández",
+            "description": "Instalando dependencias y optimizando el flujo de trabajo con nodemon y wath",
+            "code": "https://www.linkedin.com/pulse/optimiza-tu-flujo-de-trabajo-nodemon-vs-wath-hernandez-ardila-iodbe"
         }
     ]
 }
