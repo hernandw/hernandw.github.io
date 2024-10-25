@@ -48,11 +48,11 @@
         },
         {
             "id": 6,
-            "title": "Optimiza tu flujo de trabajo: nodemon vs wath",
+            "title": "Optimiza tu flujo de trabajo: nodemon vs watch",
             "src": "./images/1729854927747.png",
             "date": "2024-10-25",
             "author": "Williams Hernández",
-            "description": "Instalando dependencias y optimizando el flujo de trabajo con nodemon y wath",
+            "description": "Instalando dependencias y optimizando el flujo de trabajo con nodemon y watch",
             "code": "https://www.linkedin.com/pulse/optimiza-tu-flujo-de-trabajo-nodemon-vs-wath-hernandez-ardila-iodbe"
         }
     ]
