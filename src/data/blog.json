@@ -54,6 +54,14 @@
             "author": "Williams Hernández",
             "description": "Instalando dependencias y optimizando el flujo de trabajo con nodemon y watch",
             "code": "https://www.linkedin.com/pulse/optimiza-tu-flujo-de-trabajo-nodemon-vs-wath-hernandez-ardila-iodbe"
+        },{
+            "id": 7,
+            "title": "Primeros pasos con PostgreSQL: Creación de datos en pgAdmin",
+            "src": "./images/1729950336700.png",
+            "date": "2024-10-26",
+            "author": "Williams Hernández",
+            "description": "Instalando PostgresSQL y creando datos en pgAdmin. Conoce los primeros para crear, mostrar,modificar y eliminar datos en PostgresSQL",
+            "code": "https://www.linkedin.com/pulse/primeros-pasos-con-postgresql-creaci%25C3%25B3n-de-datos-en-hernandez-ardila-xri1e/"
         }
     ]
 }
