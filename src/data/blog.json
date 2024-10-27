@@ -62,6 +62,15 @@
             "author": "Williams Hernández",
             "description": "Instalando PostgresSQL y creando datos en pgAdmin. Conoce los primeros para crear, mostrar,modificar y eliminar datos en PostgresSQL",
             "code": "https://www.linkedin.com/pulse/primeros-pasos-con-postgresql-creaci%25C3%25B3n-de-datos-en-hernandez-ardila-xri1e/"
+        },
+        {
+            "id": 8,
+            "title": "Integración de PostgreSQL con Express: Guía práctica de conexión de bases de datos",
+            "src": "./images/1730025027406.png",
+            "date": "2024-10-27",
+            "author": "Williams Hernández",
+            "description": "Conectado una base de datos de PostgresSQL a un servidor con express y mostrar el resultado en el navegador",
+            "code": "https://www.linkedin.com/pulse/integraci%25C3%25B3n-de-postgresql-con-express-gu%25C3%25ADa-pr%25C3%25A1ctica-hernandez-ardila-cbype"
         }
     ]
 }
