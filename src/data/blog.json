@@ -71,6 +71,15 @@
             "author": "Williams Hernández",
             "description": "Conectado una base de datos de PostgresSQL a un servidor con express y mostrar el resultado en el navegador",
             "code": "https://www.linkedin.com/pulse/integraci%25C3%25B3n-de-postgresql-con-express-gu%25C3%25ADa-pr%25C3%25A1ctica-hernandez-ardila-cbype"
+        },
+        {
+            "id": 9,
+            "title": "",
+            "src": "./images/1730110327405.png",
+            "date": "2024-10-28",
+            "author": "Williams Hernández",
+            "description": "Creando nuestra primera aplicación en React desde cero",
+            "code": "https://www.linkedin.com/pulse/primeros-pasos-en-react-crea-tu-proyecto-desde-cero-hernandez-ardila-jnose"
         }
     ]
 }
