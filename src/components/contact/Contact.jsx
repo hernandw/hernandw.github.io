@@ -1,7 +1,7 @@
 import { GrMapLocation, GrMailOption } from "react-icons/gr";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useLanguage } from "../../context/LanguageContext"; // <--- Importamos el hook
+import { useLanguage } from "../../context/LanguageContext";
 
 const SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
@@ -14,19 +14,24 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Validamos que las credenciales existan antes de enviar
+    if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
+      console.error("Faltan las credenciales de EmailJS en las variables de entorno (.env)");
+      alert("Error de configuración: Faltan credenciales de correo.");
+      return;
+    }
+
     emailjs
-      .sendForm(
-        SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY
-      )
+      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("SUCCESS!", result.text);
           form.current.reset();
           alert(t('contact.successAlert'));
         },
         (error) => {
-          console.log(error.text);
-          alert(t('contact.errorAlert'));
+          console.error("FAILED...", error);
+          alert(`${t('contact.errorAlert')} (${error.text || "Ver consola para detalles"})`);
         }
       );
   };
@@ -73,5 +78,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;
