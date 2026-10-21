@@ -3,27 +3,25 @@
     {
       "id": "1",
       "es": {
-        "jobPosition": "Profesor IT / Instructor Full Stack",
-        "jobCompany": "Desafío Latam / Talento Digital - SENCE",
+        "jobPosition": "Teacher IT",
+        "jobCompany": "Desafio Latam Academy",
         "jobModality": "Remoto",
-        "jobDate": "2022 - Presente",
-        "jobFrecuency": "Tiempo completo",
+        "jobDate": "Julio 2022 - Presente",
+        "jobFrecuency": "Media jornada",
         "jobDescription": [
-          "Impartición de clases y mentorías en desarrollo Full Stack JavaScript.",
-          "Capacitación en tecnologías como React, Node.js, Express y bases de datos relacionales.",
-          "Acompañamiento académico y fomento de buenas prácticas de programación y metodologías ágiles."
+          "Profesor de Bootcamp Full Stack Javascript React",
+          "Profesor del módulo de desarrollo web del Bootcamp de Diseño UX/UI"
         ]
       },
       "en": {
-        "jobPosition": "IT Teacher / Full Stack Instructor",
-        "jobCompany": "Desafío Latam / Talento Digital - SENCE",
+        "jobPosition": "Teacher IT",
+        "jobCompany": "Desafio Latam Academy",
         "jobModality": "Remote",
-        "jobDate": "2022 - Present",
-        "jobFrecuency": "Full-time",
+        "jobDate": "July 2022 - Present",
+        "jobFrecuency": "Part Time",
         "jobDescription": [
-          "Taught classes and provided mentorship in Full Stack JavaScript development.",
-          "Trained students in technologies such as React, Node.js, Express, and relational databases.",
-          "Provided academic guidance and promoted programming best practices and agile methodologies."
+          "Full Stack Javascript React Bootcamp Teacher",
+          "Teacher of the web development module of the UX/UI Design Bootcamp"
         ]
       }
     },
@@ -31,26 +29,167 @@
       "id": "2",
       "es": {
         "jobPosition": "Frontend Developer",
-        "jobCompany": "Librería Qué Leo",
-        "jobModality": "Arica, Chile",
-        "jobDate": "2020 - 2021",
-        "jobFrecuency": "Tiempo parcial",
+        "jobCompany": "Qué Leo Arica Bookstore",
+        "jobModality": "Remoto",
+        "jobDate": "Febrero 2020 - Septiembre 2021",
+        "jobFrecuency": "Media jornada",
         "jobDescription": [
-          "Implementación y gestión de plataforma de comercio electrónico.",
-          "Desarrollo y personalización utilizando WordPress, WooCommerce y MySQL.",
-          "Optimización de la interfaz de usuario para mejorar la experiencia de compra en línea."
+          "Implementación de un ecommerce en wordpress/woocommerce",
+          "Gestión del contenido del sitio web utilizando herramientas como WordPress o Divi para crear una tienda online dinámica e interactiva",
+          "Creación y mantenimiento de la base de datos del sitio web utilizando MySQL para almacenar y recuperar datos",
+          "Integración del sitio web con servicios externos mediante APIs o plugins para conectar el ecommerce con pasarelas de pago (Transbank), redes sociales, sistemas de analítica web y herramientas de email marketing (Mailchimp) y WhatsApp Marketing"
         ]
       },
       "en": {
         "jobPosition": "Frontend Developer",
-        "jobCompany": "Librería Qué Leo",
-        "jobModality": "Arica, Chile",
-        "jobDate": "2020 - 2021",
-        "jobFrecuency": "Part-time",
+        "jobCompany": "Qué Leo Arica Bookstore",
+        "jobModality": "Remote",
+        "jobDate": "February 2020 - September 2021",
+        "jobFrecuency": "Part Time",
         "jobDescription": [
-          "Implemented and managed the e-commerce platform.",
-          "Developed and customized solutions using WordPress, WooCommerce, and MySQL.",
-          "Optimized the user interface to enhance the online shopping experience."
+          "Implementation of an ecommerce in wordpress/woocommerce",
+          "Manage the website's content, using tools like WordPress or Divi to create a dynamic and interactive online store",
+          "Create and maintain the website's database, using tools like MySQL to store and retrieve data",
+          "Integrate the website with external services, using APIs or plugins to connect ecommerce with payment platforms such as transbank, social networks, web analytics systems, email marketing tools such as mailchimp and whatsapp marketing"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "es": {
+        "jobPosition": "Librero",
+        "jobCompany": "Qué Leo Arica Bookstore",
+        "jobModality": "Presencial",
+        "jobDate": "Agosto 2017 - Septiembre 2021",
+        "jobFrecuency": "Tiempo completo",
+        "jobDescription": [
+          "Atención al cliente y venta minorista de libros",
+          "Gestión de inventario y mejora de la experiencia de usuario",
+          "Automatización de procesos con Excel",
+          "Manejo de caja"
+        ]
+      },
+      "en": {
+        "jobPosition": "Bookseller",
+        "jobCompany": "Qué Leo Arica Bookstore",
+        "jobModality": "On site",
+        "jobDate": "August 2017 - September 2021",
+        "jobFrecuency": "Full Time",
+        "jobDescription": [
+          "Customer service and retail book sales",
+          "Inventory management and improvement of user experience",
+          "Automation of processes with excel",
+          "Cash management"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "es": {
+        "jobPosition": "Profesor",
+        "jobCompany": "Universidad de Carabobo",
+        "jobModality": "Presencial",
+        "jobDate": "Noviembre 2004 - Julio 2017",
+        "jobFrecuency": "Media jornada",
+        "jobDescription": [
+          "Coordinador TI del Departamento de Ciencias Sociales",
+          "Profesor de la asignatura diseño de materiales educativos computarizados",
+          "Informática para educadores",
+          "Implementación del sitio web del Departamento de Ciencias Sociales",
+          "Formación docente en uso y desarrollo de contenidos en Moodle"
+        ]
+      },
+      "en": {
+        "jobPosition": "Professor",
+        "jobCompany": "Universidad de Carabobo",
+        "jobModality": "On site",
+        "jobDate": "November 2004 - July 2017",
+        "jobFrecuency": "Part Time",
+        "jobDescription": [
+          "IT Coordinator of the Department of Social Sciences",
+          "Teacher of the subject design of computerized educational materials",
+          "Informatics for educators",
+          "Implementation of the Website of the Department of Social Sciences",
+          "Teacher training in use and content development in moodle"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "es": {
+        "jobPosition": "Coordinador del Sistema de Gestión Escolar del Municipio San Diego",
+        "jobCompany": "Zona Educativa Carabobo",
+        "jobModality": "Híbrido",
+        "jobDate": "Septiembre 2015 - Julio 2017",
+        "jobFrecuency": "Tiempo completo",
+        "jobDescription": [
+          "Capacitación de coordinadores de control de estudios en el uso de la plataforma Guaicaipuro",
+          "Informática para educadores",
+          "Preparación de estadísticas trimestrales de ingresos de alumnos y personal al sistema de gestión escolar",
+          "Resolución de problemas con la plataforma Guaicaipuro"
+        ]
+      },
+      "en": {
+        "jobPosition": "Coordinator of the School Management System of the San Diego Municipality",
+        "jobCompany": "ZONA EDUCATIVA CARABOBO",
+        "jobModality": "Hybrid",
+        "jobDate": "September 2015 - July 2017",
+        "jobFrecuency": "Full Time",
+        "jobDescription": [
+          "Training study control coordinators in the use of the Guaicaipuro platform",
+          "Informatics for educators",
+          "Preparation of quarterly statistics of income of students and staff to the school management system",
+          "Problem solving with the Guaicaipuro platform"
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "es": {
+        "jobPosition": "Subdirector Académico",
+        "jobCompany": "Ministerio de Educación",
+        "jobModality": "Presencial",
+        "jobDate": "Marzo 2008 - Julio 2015",
+        "jobFrecuency": "Tiempo completo",
+        "jobDescription": [
+          "Supervisión de coordinadores",
+          "Automatización de procesos de notas y control de asistencia de personal",
+          "Cumplimiento de metas educativas"
+        ]
+      },
+      "en": {
+        "jobPosition": "Academic Subdirector",
+        "jobCompany": "MINISTERIO DE EDUCACIÓN",
+        "jobModality": "On site",
+        "jobDate": "March 2008 - July 2015",
+        "jobFrecuency": "Full Time",
+        "jobDescription": [
+          "Supervision of coordinators",
+          "Automation of note processes and staff attendance control",
+          "Achievement of educational goals"
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "es": {
+        "jobPosition": "Profesor",
+        "jobCompany": "Ministerio de Educación",
+        "jobModality": "Presencial",
+        "jobDate": "Septiembre 2004 - Marzo 2008",
+        "jobFrecuency": "Tiempo completo",
+        "jobDescription": [
+          "Impartición de la asignatura de Ciencias Sociales"
+        ]
+      },
+      "en": {
+        "jobPosition": "Teacher",
+        "jobCompany": "MINISTERIO DE EDUCACIÓN",
+        "jobModality": "On site",
+        "jobDate": "September 2004 - March 2008",
+        "jobFrecuency": "Full Time",
+        "jobDescription": [
+          "Teaching of Social Sciences subjects"
         ]
       }
     }
