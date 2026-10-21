@@ -41,5 +41,8 @@
     "title": "My Projects",
     "liveDemo": "Live Demo",
     "code": "Code"
+  },
+  "blog": {
+    "title": "Blog"
   }
 }

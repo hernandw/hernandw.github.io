@@ -41,5 +41,8 @@
     "title": "Mis Proyectos",
     "liveDemo": "Ver Demo",
     "code": "Código"
+  },
+  "blog": {
+    "title": "Blog"
   }
 }

@@ -2,84 +2,138 @@
     "blog": [
         {
             "id": 1,
-            "title": "Servidor con Node + Express + EJS",
             "src": "./images/art1.png",
             "date": "2022-03-21",
             "author": "Williams Hernández",
-            "description": "Levantamiento de Servidor con Express desde el Backend y EJS para el Frontend",
-            "code": "https://www.linkedin.com/pulse/servidor-con-node-express-ejs-williams-hernandez-ardila/?trackingId=gFRzS9xLSWKcCAWDv4MZ%2Fg%3D%3D"
-            
+            "code": "https://www.linkedin.com/pulse/servidor-con-node-express-ejs-williams-hernandez-ardila/?trackingId=gFRzS9xLSWKcCAWDv4MZ%2Fg%3D%3D",
+            "es": {
+                "title": "Servidor con Node + Express + EJS",
+                "description": "Levantamiento de Servidor con Express desde el Backend y EJS para el Frontend"
+            },
+            "en": {
+                "title": "Server with Node + Express + EJS",
+                "description": "Setting up a server with Express on the Backend and EJS for the Frontend"
+            }
         },
         {
             "id": 2,
-            "title": "Cómo levantar un servidor con Express.js en menos de 10 minutos ",
             "src": "./images/1729513949569.png",
             "date": "2024-10-21",
             "author": "Williams Hernández",
-            "description": "Aprende a levantar un servidor con Express.js en menos de 10 minutos: Guia para iniciar en el mundo de backend ",
-            "code": "https://www.linkedin.com/pulse/c%C3%B3mo-levantar-un-servidor-con-expressjs-en-menos-de-williams-bw5xc/?trackingId=yQR5kdceSAOourl7Kr%2Bi%2Fw%3D%3D"
+            "code": "https://www.linkedin.com/pulse/c%C3%B3mo-levantar-un-servidor-con-expressjs-en-menos-de-williams-bw5xc/?trackingId=yQR5kdceSAOourl7Kr%2Bi%2Fw%3D%3D",
+            "es": {
+                "title": "Cómo levantar un servidor con Express.js en menos de 10 minutos",
+                "description": "Aprende a levantar un servidor con Express.js en menos de 10 minutos: Guía para iniciar en el mundo del backend"
+            },
+            "en": {
+                "title": "How to set up an Express.js server in under 10 minutes",
+                "description": "Learn how to start an Express.js server in under 10 minutes: A guide to getting started in backend development"
+            }
         },
         {
             "id": 3,
-            "title": "Routing con Express: Flexibilidad y Escalabilidad en el Desarrollo de Aplicaciones Web",
             "src": "./images/1729594270462.png",
             "date": "2024-10-22",
             "author": "Williams Hernández",
-            "description": "Como crear rutas con express, importancia y escalabilidad",
-            "code": "https://www.linkedin.com/pulse/routing-con-express-flexibilidad-y-escalabilidad-en-williams-jmyje/?trackingId=TvvNRPupR3%2BtzmmsLyFDFg%3D%3D"
+            "code": "https://www.linkedin.com/pulse/routing-con-express-flexibilidad-y-escalabilidad-en-williams-jmyje/?trackingId=TvvNRPupR3%2BtzmmsLyFDFg%3D%3D",
+            "es": {
+                "title": "Routing con Express: Flexibilidad y Escalabilidad en el Desarrollo de Aplicaciones Web",
+                "description": "Cómo crear rutas con Express, importancia y escalabilidad"
+            },
+            "en": {
+                "title": "Express Routing: Flexibility and Scalability in Web App Development",
+                "description": "How to create routes with Express, their importance, and scalability"
+            }
         },
         {
             "id": 4,
-            "title": "Git y GitHub: Herramientas Esenciales para el Desarrollo Colaborativo",
             "src": "./images/1729673223418.png",
             "date": "2024-10-23",
             "author": "Williams Hernández",
-            "description": "Guarda tu proyecto de manera local con Git y de manera remota con github",
-            "code": "https://www.linkedin.com/pulse/git-y-github-herramientas-esenciales-para-el-hernandez-ardila-dv3kf/"
+            "code": "https://www.linkedin.com/pulse/git-y-github-herramientas-esenciales-para-el-hernandez-ardila-dv3kf/",
+            "es": {
+                "title": "Git y GitHub: Herramientas Esenciales para el Desarrollo Colaborativo",
+                "description": "Guarda tu proyecto de manera local con Git y de manera remota con GitHub"
+            },
+            "en": {
+                "title": "Git and GitHub: Essential Tools for Collaborative Development",
+                "description": "Save your project locally with Git and remotely with GitHub"
+            }
         },
         {
             "id": 5,
-            "title": "Variables de Entorno: Gestión Segura y Eficiente de Configuraciones en el Desarrollo de Software",
             "src": "./images/1729767797007.png",
             "date": "2024-10-24",
             "author": "Williams Hernández",
-            "description": "Conocer y utilizar variables de entorno para mejorar la seguridad de tu código",   
-            "code": "https://www.linkedin.com/pulse/variables-de-entorno-gesti%C3%B3n-segura-y-eficiente-en-el-williams-p75te/?trackingId=tod9opq2R2mvgLbmZ8YDAA%3D%3D"
+            "code": "https://www.linkedin.com/pulse/variables-de-entorno-gesti%C3%B3n-segura-y-eficiente-en-el-williams-p75te/?trackingId=tod9opq2R2mvgLbmZ8YDAA%3D%3D",
+            "es": {
+                "title": "Variables de Entorno: Gestión Segura y Eficiente de Configuraciones en el Desarrollo de Software",
+                "description": "Conocer y utilizar variables de entorno para mejorar la seguridad de tu código"
+            },
+            "en": {
+                "title": "Environment Variables: Secure and Efficient Configuration Management in Software Development",
+                "description": "Understand and use environment variables to improve your code security"
+            }
         },
         {
             "id": 6,
-            "title": "Optimiza tu flujo de trabajo: nodemon vs watch",
             "src": "./images/1729854927747.png",
             "date": "2024-10-25",
             "author": "Williams Hernández",
-            "description": "Instalando dependencias y optimizando el flujo de trabajo con nodemon y watch",
-            "code": "https://www.linkedin.com/pulse/optimiza-tu-flujo-de-trabajo-nodemon-vs-wath-hernandez-ardila-iodbe"
-        },{
+            "code": "https://www.linkedin.com/pulse/optimiza-tu-flujo-de-trabajo-nodemon-vs-wath-hernandez-ardila-iodbe",
+            "es": {
+                "title": "Optimiza tu flujo de trabajo: nodemon vs watch",
+                "description": "Instalando dependencias y optimizando el flujo de trabajo con nodemon y watch"
+            },
+            "en": {
+                "title": "Optimize your workflow: nodemon vs watch",
+                "description": "Installing dependencies and optimizing your workflow with nodemon and watch"
+            }
+        },
+        {
             "id": 7,
-            "title": "Primeros pasos con PostgreSQL: Creación de datos en pgAdmin",
             "src": "./images/1729950336700.png",
             "date": "2024-10-26",
             "author": "Williams Hernández",
-            "description": "Instalando PostgresSQL y creando datos en pgAdmin. Conoce los primeros para crear, mostrar,modificar y eliminar datos en PostgresSQL",
-            "code": "https://www.linkedin.com/pulse/primeros-pasos-con-postgresql-creaci%25C3%25B3n-de-datos-en-hernandez-ardila-xri1e/"
+            "code": "https://www.linkedin.com/pulse/primeros-pasos-con-postgresql-creaci%25C3%25B3n-de-datos-en-hernandez-ardila-xri1e/",
+            "es": {
+                "title": "Primeros pasos con PostgreSQL: Creación de datos en pgAdmin",
+                "description": "Instalando PostgreSQL y creando datos en pgAdmin. Conoce los primeros pasos para crear, mostrar, modificar y eliminar datos en PostgreSQL"
+            },
+            "en": {
+                "title": "Getting Started with PostgreSQL: Creating Data in pgAdmin",
+                "description": "Installing PostgreSQL and creating data in pgAdmin. Learn the basics to create, display, update, and delete data in PostgreSQL"
+            }
         },
         {
             "id": 8,
-            "title": "Integración de PostgreSQL con Express: Guía práctica de conexión de bases de datos",
             "src": "./images/1730025027406.png",
             "date": "2024-10-27",
             "author": "Williams Hernández",
-            "description": "Conectado una base de datos de PostgresSQL a un servidor con express y mostrar el resultado en el navegador",
-            "code": "https://www.linkedin.com/pulse/integraci%25C3%25B3n-de-postgresql-con-express-gu%25C3%25ADa-pr%25C3%25A1ctica-hernandez-ardila-cbype"
+            "code": "https://www.linkedin.com/pulse/integraci%25C3%25B3n-de-postgresql-con-express-gu%25C3%25ADa-pr%25C3%25A1ctica-hernandez-ardila-cbype",
+            "es": {
+                "title": "Integración de PostgreSQL con Express: Guía práctica de conexión de bases de datos",
+                "description": "Conectando una base de datos de PostgreSQL a un servidor con Express y mostrando el resultado en el navegador"
+            },
+            "en": {
+                "title": "Integrating PostgreSQL with Express: A Practical Database Connection Guide",
+                "description": "Connecting a PostgreSQL database to an Express server and displaying the result in the browser"
+            }
         },
         {
             "id": 9,
-            "title": "Primeros Pasos en React: Crea tu Proyecto desde Cero",
             "src": "./images/1730139022405.png",
             "date": "2024-10-28",
             "author": "Williams Hernández",
-            "description": "Creando nuestra primera aplicación en React desde cero",
-            "code": "https://www.linkedin.com/pulse/primeros-pasos-en-react-crea-tu-proyecto-desde-cero-hernandez-ardila-jnose"
+            "code": "https://www.linkedin.com/pulse/primeros-pasos-en-react-crea-tu-proyecto-desde-cero-hernandez-ardila-jnose",
+            "es": {
+                "title": "Primeros Pasos en React: Crea tu Proyecto desde Cero",
+                "description": "Creando nuestra primera aplicación en React desde cero"
+            },
+            "en": {
+                "title": "Getting Started with React: Create Your Project from Scratch",
+                "description": "Creating our first React application from scratch"
+            }
         }
     ]
 }
