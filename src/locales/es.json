@@ -22,5 +22,12 @@
       "Desarrollador Full Stack",
       "Profesor IT"
     ]
+  },
+  "about": {
+    "role": "Desarrollador Full Stack",
+    "biography": "Biografía",
+    "p1": "Como desarrollador web, mantengo un aprendizaje continuo en tecnologías como CSS, JavaScript, React y Express. Mi objetivo principal es aportar valor al modelo de negocio y optimizar la experiencia del usuario.",
+    "p2": "Me apasiona crear software de alta calidad que marque una diferencia positiva en el día a día de las personas.",
+    "p3": "Lo que me define es mi capacidad para convertir ideas en código funcional y atractivo. Además de mi sólido dominio de HTML, CSS y JavaScript, destaco por el trabajo en equipo, la comunicación efectiva y una rápida adaptación a nuevos retos. Mi meta no es solo escribir código, sino ofrecer soluciones eficientes y agradables para los usuarios."
   }
 }

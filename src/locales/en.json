@@ -22,5 +22,12 @@
       "Full Stack Developer",
       "Teacher IT"
     ]
+  },
+  "about": {
+    "role": "Full Stack Developer",
+    "biography": "Biography",
+    "p1": "As a web developer, I am committed to continuously expanding my expertise in CSS, JavaScript, React, and Express. My goal is to add value to business models and elevate the overall user experience.",
+    "p2": "I am deeply passionate about building exceptional software that makes a meaningful impact on people's lives.",
+    "p3": "What sets me apart is my ability to turn ideas into clean, functional, and engaging code. Alongside a strong foundation in HTML, CSS, and JavaScript, I thrive in collaborative teamwork, clear communication, and adapting swiftly to new challenges. My aim goes beyond writing code—I strive to deliver seamless and enjoyable digital solutions for users."
   }
 }
