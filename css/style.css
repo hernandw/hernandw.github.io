@@ -1,0 +1,21 @@
+.animated-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dfa400;
+    animation: changeText 6s infinite;
+  }
+
+  @keyframes changeText {
+    0% {
+      content: "Frontend Developer";
+    }
+    33% {
+      content: "Full Stack Developer";
+    }
+    66% {
+      content: "Teacher IT";
+    }
+    100% {
+      content: "Frontend Developer";
+    }
+  }
