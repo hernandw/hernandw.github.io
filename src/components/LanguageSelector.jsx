@@ -1,34 +1,33 @@
+
 import { useLanguage } from '../context/LanguageContext';
 
 export const LanguageSelector = () => {
   const { locale, switchLanguage } = useLanguage();
 
   return (
-    <div className="flex flex-col sm:flex-row items-center gap-2 bg-gray-800/40 p-1 rounded-lg border border-gray-700/50">
+    <div className="flex items-center gap-1 bg-gray-800/80 p-1 rounded-lg border border-gray-700 shadow-md">
       <button
         onClick={() => switchLanguage('es')}
-        className={`p-1.5 rounded-md transition-all text-lg leading-none ${
+        className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
           locale === 'es' 
-            ? 'bg-blue-600/80 shadow-sm scale-110' 
-            : 'opacity-50 hover:opacity-100 hover:scale-105'
+            ? 'bg-blue-600 text-white shadow' 
+            : 'text-gray-300 hover:text-white hover:bg-gray-700/50'
         }`}
-        title="Cambiar a Español"
-        aria-label="Español"
+        title="Español"
       >
-        🇪🇸
+        ES
       </button>
 
       <button
         onClick={() => switchLanguage('en')}
-        className={`p-1.5 rounded-md transition-all text-lg leading-none ${
+        className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
           locale === 'en' 
-            ? 'bg-blue-600/80 shadow-sm scale-110' 
-            : 'opacity-50 hover:opacity-100 hover:scale-105'
+            ? 'bg-blue-600 text-white shadow' 
+            : 'text-gray-300 hover:text-white hover:bg-gray-700/50'
         }`}
-        title="Switch to English"
-        aria-label="English"
+        title="English"
       >
-        🇺🇸
+        EN
       </button>
     </div>
   );
