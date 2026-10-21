@@ -45,5 +45,18 @@
   "blog": {
     "title": "Blog",
     "readMore": "Leer artículo completo"
+  },
+  "contact": {
+    "title1": "¿Cuál es tu historia?",
+    "title2": "Ponte en contacto.",
+    "subtitle": "Siempre disponible para proyectos freelance si surge la oportunidad adecuada, no dudes en contactarme.",
+    "saySomething": "Dime algo",
+    "namePlaceholder": "Nombre",
+    "emailPlaceholder": "Correo electrónico",
+    "subjectPlaceholder": "Asunto",
+    "messagePlaceholder": "Mensaje",
+    "sendButton": "Enviar mensaje",
+    "successAlert": "¡Mensaje enviado con éxito!",
+    "errorAlert": "¡Algo salió mal!"
   }
 }

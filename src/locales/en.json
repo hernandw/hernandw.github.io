@@ -45,5 +45,18 @@
   "blog": {
     "title": "Blog",
     "readMore": "Read full article"
+  },
+  "contact": {
+    "title1": "What’s your story?",
+    "title2": "Get in touch.",
+    "subtitle": "Always available for freelancing if the right project comes along, Feel free to contact me.",
+    "saySomething": "Say Something",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Message",
+    "sendButton": "Send message",
+    "successAlert": "Message sent successfully!",
+    "errorAlert": "Something went wrong!"
   }
 }
