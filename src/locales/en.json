@@ -32,5 +32,9 @@
   },
   "experience": {
     "title": "Experience"
+  },
+  "education": {
+    "title": "Education",
+    "skillsTitle": "Skills"
   }
 }
