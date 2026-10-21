@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 
 const BlogCard = ({ src, date, author, code, es, en }) => {
-  const { locale } = useLanguage();
+  const { locale, t } = useLanguage();
   
   // Selecciona el idioma activo (es o en)
   const currentData = locale === 'en' ? (en || es) : (es || en);
@@ -34,11 +34,11 @@ const BlogCard = ({ src, date, author, code, es, en }) => {
         {currentData?.description}
       </p>
 
-      {/* Enlace inferior */}
+      {/* Enlace inferior traducido dinámicamente */}
       <div className="pt-2">
-        <span className="text-xs text-[#dfa400] font-semibold hover:underline">
-          Leer artículo completo &rarr;
-        </span>
+        <Link to={code} target="_blank" rel="noopener noreferrer" className="text-xs text-[#dfa400] font-semibold hover:underline block">
+          {t('blog.readMore')} &rarr;
+        </Link>
       </div>
     </div>
   );

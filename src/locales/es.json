@@ -43,6 +43,7 @@
     "code": "Código"
   },
   "blog": {
-    "title": "Blog"
+    "title": "Blog",
+    "readMore": "Leer artículo completo"
   }
 }
