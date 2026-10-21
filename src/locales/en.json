@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Full Stack Web Developer",
+    "description": "I transform ideas into modern, functional, and engaging web applications.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me"
+  },
+  "home": {
+    "greeting": "Hello, My name is",
+    "description": "I focused on crafting clean & user‑friendly experiences. I am passionate about building excellent software that improves the lives of those around me.",
+    "getInTouch": "Get in touch",
+    "roles": [
+      "Frontend Developer",
+      "Backend Developer",
+      "Full Stack Developer",
+      "Teacher IT"
+    ]
+  }
+}
