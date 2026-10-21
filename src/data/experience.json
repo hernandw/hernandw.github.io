@@ -3,27 +3,54 @@
     {
       "id": "1",
       "es": {
-        "jobPosition": "Desarrollador Full Stack",
-        "jobCompany": "Empresa Ejemplo",
+        "jobPosition": "Profesor IT / Instructor Full Stack",
+        "jobCompany": "Desafío Latam / Talento Digital - SENCE",
         "jobModality": "Remoto",
-        "jobDate": "2023 - Presente",
+        "jobDate": "2022 - Presente",
         "jobFrecuency": "Tiempo completo",
         "jobDescription": [
-          "Desarrollo de aplicaciones web utilizando React y Node.js.",
-          "Optimización de bases de datos relacionales y mejora del rendimiento.",
-          "Colaboración en equipos multidisciplinarios bajo metodologías ágiles."
+          "Impartición de clases y mentorías en desarrollo Full Stack JavaScript.",
+          "Capacitación en tecnologías como React, Node.js, Express y bases de datos relacionales.",
+          "Acompañamiento académico y fomento de buenas prácticas de programación y metodologías ágiles."
         ]
       },
       "en": {
-        "jobPosition": "Full Stack Developer",
-        "jobCompany": "Example Company",
+        "jobPosition": "IT Teacher / Full Stack Instructor",
+        "jobCompany": "Desafío Latam / Talento Digital - SENCE",
         "jobModality": "Remote",
-        "jobDate": "2023 - Present",
+        "jobDate": "2022 - Present",
         "jobFrecuency": "Full-time",
         "jobDescription": [
-          "Developed web applications using React and Node.js.",
-          "Optimized relational databases and improved system performance.",
-          "Collaborated in multidisciplinary teams under agile methodologies."
+          "Taught classes and provided mentorship in Full Stack JavaScript development.",
+          "Trained students in technologies such as React, Node.js, Express, and relational databases.",
+          "Provided academic guidance and promoted programming best practices and agile methodologies."
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "es": {
+        "jobPosition": "Frontend Developer",
+        "jobCompany": "Librería Qué Leo",
+        "jobModality": "Arica, Chile",
+        "jobDate": "2020 - 2021",
+        "jobFrecuency": "Tiempo parcial",
+        "jobDescription": [
+          "Implementación y gestión de plataforma de comercio electrónico.",
+          "Desarrollo y personalización utilizando WordPress, WooCommerce y MySQL.",
+          "Optimización de la interfaz de usuario para mejorar la experiencia de compra en línea."
+        ]
+      },
+      "en": {
+        "jobPosition": "Frontend Developer",
+        "jobCompany": "Librería Qué Leo",
+        "jobModality": "Arica, Chile",
+        "jobDate": "2020 - 2021",
+        "jobFrecuency": "Part-time",
+        "jobDescription": [
+          "Implemented and managed the e-commerce platform.",
+          "Developed and customized solutions using WordPress, WooCommerce, and MySQL.",
+          "Optimized the user interface to enhance the online shopping experience."
         ]
       }
     }
