@@ -36,5 +36,10 @@
   "education": {
     "title": "Education",
     "skillsTitle": "Skills"
+  },
+  "projects": {
+    "title": "My Projects",
+    "liveDemo": "Live Demo",
+    "code": "Code"
   }
 }

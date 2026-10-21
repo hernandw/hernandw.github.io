@@ -1,23 +1,34 @@
 {
-    "projects": [
-      {
-        "id": "1",
-        "src": "./images/bienesraiceshbs.png",
+  "projects": [
+    {
+      "id": "1",
+      "src": "./images/bienesraiceshbs.png",
+      "code": "https://github.com/hernandw/bienesraices-hbs",
+      "demo": "https://bienesraices-hbs.onrender.com/",
+      "tech": ["HTML", "CSS", "API", "JavaScript", "handleBars", "Tailwind", "Express", "Postgres"],
+      "es": {
         "title": "Espacio Inversión - Venta de Inmuebles",
-        "description": "Sitio web dedicado a la venta de inmuebles realizado con tecnologias como Javascripts, Handlebars y los estilos con CSS, Tailwind, Express desde el lado de Backend y Postgres para el manejo de la base de datos.",
-        "code": "https://github.com/hernandw/bienesraices-hbs",
-        "demo": "https://bienesraices-hbs.onrender.com/",
-        "tech": ["HTML", "CSS","API", "JavaScript", "handleBars", "Tailwind", "Express", "Postgres" ]
+        "description": "Sitio web dedicado a la venta de inmuebles realizado con tecnologías como JavaScript, Handlebars y estilos con CSS, Tailwind, Express desde el lado del Backend y Postgres para el manejo de la base de datos."
       },
-      {
-        "id": "2",
-        "src": "./images/portada.png",
-        "title": "GuitarLA",
-        "description": "Carrito de compras con React,  React Router, Typescript, CSS",
-        "code": "https://github.com/hernandw/guitarla-ts",
-        "demo": "https://www.williamshernandez.com/guitarla-ts/",
-        "tech": ["Bootstrap","Typescript", "CSS", "React",  "React Router" ]
+      "en": {
+        "title": "Espacio Inversión - Real Estate",
+        "description": "Website dedicated to real estate sales built with technologies like JavaScript, Handlebars, CSS, Tailwind, Express for the backend, and Postgres for database management."
       }
-      
-    ]
-  }
+    },
+    {
+      "id": "2",
+      "src": "./images/portada.png",
+      "code": "https://github.com/hernandw/guitarla-ts",
+      "demo": "https://www.williamshernandez.com/guitarla-ts/",
+      "tech": ["Bootstrap", "Typescript", "CSS", "React", "React Router"],
+      "es": {
+        "title": "GuitarLA",
+        "description": "Carrito de compras desarrollado con React, React Router, TypeScript y CSS."
+      },
+      "en": {
+        "title": "GuitarLA",
+        "description": "Shopping cart developed with React, React Router, TypeScript, and CSS."
+      }
+    }
+  ]
+}

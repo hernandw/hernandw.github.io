@@ -36,5 +36,10 @@
   "education": {
     "title": "Educación",
     "skillsTitle": "Habilidades"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "liveDemo": "Ver Demo",
+    "code": "Código"
   }
 }
