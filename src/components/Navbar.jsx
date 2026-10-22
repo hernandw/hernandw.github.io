@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaFileInvoice, FaHome, FaPhoneAlt, FaRssSquare, FaSuitcase, FaUser, FaUserGraduate } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { LanguageSelector } from './LanguageSelector';
-import { ThemeToggle } from './ThemeToggle'; // <--- Importamos el botón de tema
+import { ThemeToggle } from './ThemeToggle';
 
 const menuMob = [
     {
@@ -81,7 +81,7 @@ const Navbar = () => {
 
             {/* Menu Mobile */}
             <div className='md:hidden fixed right-5 top-5 z-20 w-[85px] h-[80px] bg-[#dfa400] text-white rounded-full shadow-lg'>
-                <div onClick={handleNav} className='block md:hidden p-4 cursor-pointer flex justify-center items-center h-full'>
+                <div onClick={handleNav} className='md:hidden p-4 cursor-pointer flex justify-center items-center h-full'>
                     {nav ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
                 </div>
                 {nav && (
