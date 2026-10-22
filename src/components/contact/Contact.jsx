@@ -1,4 +1,5 @@
-import { GrMapLocation, GrMailOption } from "react-icons/gr";
+import { GrMailOption } from "react-icons/gr";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useLanguage } from "../../context/LanguageContext";
@@ -36,16 +37,33 @@ const Contact = () => {
         <p className="text-3xl font-bold">{t('contact.title2')}</p>
         <div className="flex flex-col">
           <p className="py-2 text-sm text-gray-600 dark:text-gray-300">{t('contact.subtitle')}</p>
+          
           <div className="flex gap-4 items-center">
-            <p className="text-[#dfa400] py-2"><GrMapLocation /></p>
+            <p className="text-[#dfa400] py-2 text-xl"><FaMapMarkerAlt /></p>
             <p className="py-2 font-bold">Arica - Chile</p>
           </div>
+          
           <div className="flex gap-4 items-center">
-            <p className="text-[#dfa400] py-2"><GrMailOption /></p>
+            <p className="text-[#dfa400] py-2 text-xl"><GrMailOption /></p>
             <p className="py-2 font-bold">hernandw@gmail.com</p>
+          </div>
+
+          {/* Contenedor de tu Mapa Personalizado */}
+          <div className="mt-6 rounded-xl overflow-hidden border-2 border-[#dfa400] shadow-md w-full h-[400px]">
+            <iframe
+              title="Arica Map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15135.472692366611!2d-70.27654795!3d-18.489629549999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1792668584392!5m2!1sen!2scl"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            ></iframe>
           </div>
         </div>
       </div>
+
       <div className="md:w-3/5 px-2 pt-10">
         <div>
           <h2 className="text-xl font-bold md:px-8 mb-4">{t('contact.saySomething')}</h2>
