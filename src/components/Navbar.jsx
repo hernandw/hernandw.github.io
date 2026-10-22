@@ -3,13 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaFileInvoice, FaHome, FaPhoneAlt, FaRssSquare, FaSuitcase, FaUser, FaUserGraduate } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { LanguageSelector } from './LanguageSelector';
-import { ThemeToggle } from './ThemeToggle'; // <--- Importas el componente
-
-// Y dentro del div inferior de tu menú (tanto en desktop como mobile):
-<div className='p-3 flex flex-col items-center gap-3 pb-6'>
-    <LanguageSelector />
-    <ThemeToggle />
-</div>
+import { ThemeToggle } from './ThemeToggle'; // <--- Importamos el botón de tema
 
 const menuMob = [
     {
@@ -58,7 +52,7 @@ const Navbar = () => {
 
     return (
         <>{/* Menu Desktop */}
-            <div className='bg-[#0f172a] hidden md:flex fixed left-0 top-0 w-[85px] h-full flex-col justify-between'>
+            <div className='bg-[#0f172a] hidden md:flex fixed left-0 top-0 w-[85px] h-full flex-col justify-between z-20'>
                 <div>
                     {/* Logo */}
                     <div className='text-center pt-4 text-4xl font-bold text-[#dfa400]'>
@@ -78,19 +72,20 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                {/* Selector de idioma en Escritorio (abajo) */}
-                <div className='p-3 flex justify-center pb-6'>
+                {/* Controles de Idioma y Tema en Escritorio (abajo) */}
+                <div className='p-3 flex flex-col items-center gap-3 pb-6'>
                     <LanguageSelector />
+                    <ThemeToggle />
                 </div>
             </div>
 
             {/* Menu Mobile */}
-            <div className='md:hidden fixed right-5 top-5 z-10 w-[85px] h-[80px] bg-[#dfa400] text-white rounded-full'>
-                <div onClick={handleNav} className='block md:hidden p-4 cursor-pointer'>
-                    {nav ? <AiOutlineClose size={50} /> : <AiOutlineMenu size={50} />}
+            <div className='md:hidden fixed right-5 top-5 z-20 w-[85px] h-[80px] bg-[#dfa400] text-white rounded-full shadow-lg'>
+                <div onClick={handleNav} className='block md:hidden p-4 cursor-pointer flex justify-center items-center h-full'>
+                    {nav ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
                 </div>
                 {nav && (
-                    <div className='bg-[#0f172a] fixed left-0 top-0 w-[85px] h-full flex flex-col justify-between transition-opacity duration-500 ease-in-out opacity-100'>
+                    <div className='bg-[#0f172a] fixed left-0 top-0 w-[85px] h-full flex flex-col justify-between transition-opacity duration-500 ease-in-out opacity-100 z-10'>
 
                         <div>
                             {/* Logo */}
@@ -110,9 +105,10 @@ const Navbar = () => {
                             </ul>
                         </div>
 
-                        {/* Selector de idioma en Móvil (abajo) */}
-                        <div className='p-3 flex justify-center pb-6'>
+                        {/* Controles de Idioma y Tema en Móvil (abajo) */}
+                        <div className='p-3 flex flex-col items-center gap-3 pb-6'>
                             <LanguageSelector />
+                            <ThemeToggle />
                         </div>
 
                     </div>

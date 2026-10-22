@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { FaMoon, FaSun } from 'react-icons/fa';
 
@@ -8,7 +7,7 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-lg bg-gray-800/80 text-yellow-400 hover:bg-gray-700 transition-all border border-gray-700 shadow-md flex items-center justify-center"
+      className="p-2 rounded-lg bg-gray-800/80 text-yellow-400 hover:bg-gray-700 transition-all border border-gray-700 shadow-md flex items-center justify-center cursor-pointer"
       title="Cambiar tema"
       aria-label="Toggle Theme"
     >
