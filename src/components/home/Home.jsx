@@ -1,16 +1,12 @@
 import { useEffect, useState } from "react"
-import { useLanguage } from "../../context/LanguageContext"; // <--- Importamos el hook
+import { useLanguage } from "../../context/LanguageContext"
 import './Home.css'
 
 const Home = () => {
-  const { t, locale } = useLanguage(); // <--- Obtenemos la función t y el idioma actual
-
-  // Obtenemos los roles traducidos desde el JSON según el idioma activo
+  const { t, locale } = useLanguage();
   const texts = t('home.roles');
-  
   const [index, setIndex] = useState(0);
 
-  // Reiniciamos el índice si cambia el idioma para evitar desajustes
   useEffect(() => {
     setIndex(0);
   }, [locale]);
@@ -24,7 +20,7 @@ const Home = () => {
   }, [texts.length]);
 
   return (
-    <div className="flex flex-col md:flex-row md:px-12 md:gap-12 pt-4 md:py-2 items-center md:pl-28 md:pr-10 justify-center">
+    <div className="flex flex-col md:flex-row md:px-12 md:gap-12 pt-4 md:py-2 items-center md:pl-28 md:pr-10 justify-center text-gray-900 dark:text-white transition-colors duration-300">
       <div className="md:w-1/2 md:h-[94vh]">
         <div className="space-y-12 md:space-y-24 font-bold">
           <div className="hidden md:block">
@@ -36,8 +32,8 @@ const Home = () => {
             <div className="text-container">
               <p key={index} className="animated-text">{texts[index]}</p>
             </div>
-            <p className="text-xl font-thin">{t('home.description')}</p>
-            <button className="bg-[#dfa400] text-white p-2 rounded-lg w-[120px] mt-8 hover:bg-white hover:text-[#dfa400]">
+            <p className="text-xl font-thin text-gray-600 dark:text-gray-300">{t('home.description')}</p>
+            <button className="bg-[#dfa400] text-white p-2 rounded-lg w-[120px] mt-8 hover:bg-gray-200 dark:hover:bg-white hover:text-[#dfa400] transition-colors">
               <a href="/contact">{t('home.getInTouch')}</a>
             </button>
           </div>

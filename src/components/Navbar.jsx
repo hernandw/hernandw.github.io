@@ -3,6 +3,13 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaFileInvoice, FaHome, FaPhoneAlt, FaRssSquare, FaSuitcase, FaUser, FaUserGraduate } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { LanguageSelector } from './LanguageSelector';
+import { ThemeToggle } from './ThemeToggle'; // <--- Importas el componente
+
+// Y dentro del div inferior de tu menú (tanto en desktop como mobile):
+<div className='p-3 flex flex-col items-center gap-3 pb-6'>
+    <LanguageSelector />
+    <ThemeToggle />
+</div>
 
 const menuMob = [
     {
