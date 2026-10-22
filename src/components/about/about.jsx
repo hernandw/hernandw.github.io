@@ -5,7 +5,7 @@ const About = () => {
   const { t } = useLanguage();
 
   return (
-    <div className="md:flex justify-center text-gray-900 dark:text-white transition-colors duration-300">
+    <div className="md:flex justify-center text-gray-900 dark:text-white transition-colors duration-300 px-4 md:px-12">
       <div className="md:w-1/2">
         <div>
           <div className="flex justify-center pt-28">
@@ -46,7 +46,9 @@ const About = () => {
           <h1 className="text-3xl font-bold text-center">Williams Hernández</h1>
         </div>
       </div>
-      <div className="mt-6 text-gray-600 dark:text-gray-300 space-y-4 md:w-1/2 md:mt-32">
+      
+      {/* Contenedor de la biografía con resguardo lateral para que no quede pegado */}
+      <div className="mt-6 text-gray-600 dark:text-gray-300 space-y-4 md:w-1/2 md:mt-32 md:pr-12">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">{t('about.biography')}</h2>
         <p>{t('about.p1')}</p>
         <p>{t('about.p2')}</p>
