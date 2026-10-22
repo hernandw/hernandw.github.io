@@ -13,6 +13,7 @@ const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
   const [locale, setLocale] = useState(() => {
+    // CAMBIO: Si no hay nada guardado, por defecto será 'es' (Español)
     return localStorage.getItem('portfolio_lang') || 'es';
   });
 

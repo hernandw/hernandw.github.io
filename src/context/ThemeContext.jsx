@@ -6,6 +6,7 @@ const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
+    // CAMBIO: Si no hay nada guardado, por defecto será 'dark' (Modo Oscuro)
     return localStorage.getItem('portfolio_theme') || 'dark';
   });
 

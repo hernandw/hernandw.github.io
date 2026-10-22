@@ -35,7 +35,7 @@ const About = () => {
               </a>
             </div>
             <div className="flex justify-center items-center rounded-full relative">
-              <a href="https://www.williamshernandez.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/hernandw" target="_blank" rel="noopener noreferrer">
                 <FaGlobe className="text-white bg-black hover:bg-[#dfa400] p-2 rounded-full border-2 absolute -top-20 -right-24" size={36} />
               </a>
             </div>
