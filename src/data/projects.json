@@ -44,6 +44,21 @@
         "title": "Finance Course App",
         "description": "Full stack web application built with React on the frontend (hosted on Vercel) and a robust Node/Express API connected to PostgreSQL via Supabase (hosted on Render)."
       }
-    }
+    },
+    {
+  "id": "4",
+  "src": "./images/diario-trading.png",
+  "code": "https://github.com/hernandw",
+  "demo": "https://diario-trading-flax.vercel.app/",
+  "tech": ["React", "JavaScript", "Tailwind", "Vercel"],
+  "es": {
+    "title": "Diario de Trading",
+    "description": "Aplicación web para registrar, analizar y dar seguimiento a operaciones y métricas de trading, desplegada en Vercel."
+  },
+  "en": {
+    "title": "Trading Journal",
+    "description": "Web application to log, analyze, and track trading operations and performance metrics, deployed on Vercel."
+  }
+}
   ]
 }
