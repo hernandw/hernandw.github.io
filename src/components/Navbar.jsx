@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaFileInvoice, FaHome, FaPhoneAlt, FaRssSquare, FaSuitcase, FaUser, FaUserGraduate } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { LanguageSelector } from './LanguageSelector';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -41,17 +41,21 @@ const menuMob = [
         url: "/contact",
         opcion: <FaPhoneAlt />
     }
-]
+];
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const { pathname } = useLocation();
 
     const handleNav = () => {
         setNav(!nav);
     };
 
+    const isActive = (url) => pathname === url;
+
     return (
-        <>{/* Menu Desktop */}
+        <>
+            {/* Menu Desktop */}
             <div className='bg-[#0f172a] hidden md:flex fixed left-0 top-0 w-[85px] h-full flex-col justify-between z-20'>
                 <div>
                     {/* Logo */}
@@ -60,15 +64,22 @@ const Navbar = () => {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <ul className='flex-col pt-4 text-white text-2xl'>
-                        {menuMob.map(item => (
-                            <li
-                                key={item.id}
-                                className='p-6 cursor-pointer duration-300 hover:text-[#dfa400] border-gray-50 border-b-[1px] flex justify-center'
-                            >
-                                <Link to={item.url}>{item.opcion}</Link>
-                            </li>
-                        ))}
+                    <ul className='flex-col pt-4 text-2xl'>
+                        {menuMob.map((item) => {
+                            const active = isActive(item.url);
+                            return (
+                                <li
+                                    key={item.id}
+                                    className={`p-6 cursor-pointer duration-300 hover:text-[#dfa400] border-gray-50 border-b-[1px] flex justify-center ${
+                                        active ? 'text-[#dfa400] bg-slate-800/70' : 'text-white'
+                                    }`}
+                                >
+                                    <Link to={item.url} aria-current={active ? "page" : undefined}>
+                                        {item.opcion}
+                                    </Link>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
 
@@ -81,27 +92,33 @@ const Navbar = () => {
 
             {/* Menu Mobile */}
             <div className='md:hidden fixed right-5 top-5 z-20 w-[85px] h-[80px] bg-[#dfa400] text-white rounded-full shadow-lg'>
-                <div onClick={handleNav} className='md:hidden p-4 cursor-pointer flex justify-center items-center h-full'>
+                <div onClick={handleNav} className='p-4 cursor-pointer flex justify-center items-center h-full'>
                     {nav ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
                 </div>
                 {nav && (
                     <div className='bg-[#0f172a] fixed left-0 top-0 w-[85px] h-full flex flex-col justify-between transition-opacity duration-500 ease-in-out opacity-100 z-10'>
-
                         <div>
                             {/* Logo */}
                             <div className='text-center pt-4 text-4xl font-bold text-[#dfa400]'>
                                 <h1>WH</h1>
                             </div>
 
-                            <ul className='flex-col pt-4 text-white text-2xl'>
-                                {menuMob.map(item => (
-                                    <li
-                                        key={item.id}
-                                        className='p-6 cursor-pointer duration-300 hover:text-[#dfa400] border-gray-50 border-b-[1px] flex justify-center'
-                                    >
-                                        <Link to={item.url} onClick={handleNav}>{item.opcion}</Link>
-                                    </li>
-                                ))}
+                            <ul className='flex-col pt-4 text-2xl'>
+                                {menuMob.map((item) => {
+                                    const active = isActive(item.url);
+                                    return (
+                                        <li
+                                            key={item.id}
+                                            className={`p-6 cursor-pointer duration-300 hover:text-[#dfa400] border-gray-50 border-b-[1px] flex justify-center ${
+                                                active ? 'text-[#dfa400] bg-slate-800/70' : 'text-white'
+                                            }`}
+                                        >
+                                            <Link to={item.url} onClick={handleNav} aria-current={active ? "page" : undefined}>
+                                                {item.opcion}
+                                            </Link>
+                                        </li>
+                                    );
+                                })}
                             </ul>
                         </div>
 
@@ -110,7 +127,6 @@ const Navbar = () => {
                             <LanguageSelector />
                             <ThemeToggle />
                         </div>
-
                     </div>
                 )}
             </div>

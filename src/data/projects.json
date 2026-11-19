@@ -5,7 +5,16 @@
       "src": "./images/bienesraiceshbs.png",
       "code": "https://github.com/hernandw/bienesraices-hbs",
       "demo": "https://bienesraices-hbs.onrender.com/",
-      "tech": ["HTML", "CSS", "API", "JavaScript", "handleBars", "Tailwind", "Express", "Postgres"],
+      "tech": [
+        "HTML",
+        "CSS",
+        "API",
+        "JavaScript",
+        "handleBars",
+        "Tailwind",
+        "Express",
+        "Postgres"
+      ],
       "es": {
         "title": "Espacio Inversión - Venta de Inmuebles",
         "description": "Sitio web dedicado a la venta de inmuebles realizado con tecnologías como JavaScript, Handlebars y estilos con CSS, Tailwind, Express desde el lado del Backend y Postgres para el manejo de la base de datos."
@@ -46,19 +55,19 @@
       }
     },
     {
-  "id": "4",
-  "src": "./images/diario-trading.png",
-  "code": "https://github.com/hernandw",
-  "demo": "https://diario-trading-flax.vercel.app/",
-  "tech": ["React", "JavaScript", "Tailwind", "Vercel"],
-  "es": {
-    "title": "Diario de Trading",
-    "description": "Aplicación web para registrar, analizar y dar seguimiento a operaciones y métricas de trading, desplegada en Vercel."
-  },
-  "en": {
-    "title": "Trading Journal",
-    "description": "Web application to log, analyze, and track trading operations and performance metrics, deployed on Vercel."
-  }
-}
+      "id": "4",
+      "src": "./images/diario-trading.png",
+      "code": "https://github.com/hernandw",
+      "demo": "https://diario-trading-flax.vercel.app/",
+      "tech": ["React", "JavaScript", "Tailwind", "Vercel"],
+      "es": {
+        "title": "Diario de Trading",
+        "description": "Aplicación web para registrar, analizar y dar seguimiento a operaciones y métricas de trading, desplegada en Vercel."
+      },
+      "en": {
+        "title": "Trading Journal",
+        "description": "Web application to log, analyze, and track trading operations and performance metrics, deployed on Vercel."
+      }
+    }
   ]
 }
