@@ -68,6 +68,21 @@
         "title": "Trading Journal",
         "description": "Web application to log, analyze, and track trading operations and performance metrics, deployed on Vercel."
       }
-    }
+    },
+    {
+  "id": "5",
+  "src": "./images/sass-tiendas.png",
+  "code": "https://github.com/hernandw",
+  "demo": "https://sass-tiendas.vercel.app/",
+  "tech": ["React", "JavaScript", "Tailwind", "Vercel"],
+  "es": {
+    "title": "SaaS Tiendas Online",
+    "description": "Plataforma web multi-tienda para gestión de comercios, catálogo de productos y administración de ventas en línea, desplegada en Vercel."
+  },
+  "en": {
+    "title": "Online Stores SaaS",
+    "description": "Multi-store web platform for merchant management, product catalog, and online sales administration, deployed on Vercel."
+  }
+}
   ]
 }
